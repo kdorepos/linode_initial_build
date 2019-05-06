@@ -3,6 +3,7 @@
 # Global parameters
 DIVIDINGLINE="--------------------------------------------------------------------------------"
 DATE=`date +%Y%m%d`
+WORKINGDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # Let's get functional
 lines() {
